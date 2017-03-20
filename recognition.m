@@ -23,7 +23,7 @@ accuracy = mean(diag(acc));
 if accuracy > 0.2
 output = ml.Labels(labelIdx)  
 else 
-    disp('You are intruder')
+    disp('You are a intruder')
 end
 
     
